@@ -17,7 +17,12 @@ It showcases trending movies through a clean carousel and movie card layout, and
 - **Database:** SQLite  
 
 ## 📸 Screenshots
-(Add screenshots of your homepage, contact page, and admin panel)
+<img width="1917" height="797" alt="image" src="https://github.com/user-attachments/assets/d667883c-2ee4-4c6f-aa0c-e041242c776f" />
+<img width="1916" height="865" alt="image" src="https://github.com/user-attachments/assets/b652c70a-cfc9-41e9-aa44-94f947df0740" />
+<img width="1917" height="743" alt="image" src="https://github.com/user-attachments/assets/6ed13e4a-dee4-44e7-8141-0c03a9a78c2b" />
+<img width="1900" height="860" alt="image" src="https://github.com/user-attachments/assets/4a0be57f-9d52-4999-9927-e957515e6cdf" />
+
+
 
 ## 👨‍💻 Author
 Developed by Tippusultan 
