@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}about{% endblock title %}
+
+
+{% block body %}
+<div class="container-fluid bg-dark text-light py-5">
+  <div class="container">
+    <h1 class="mb-4 text-danger">About My Netflix Clone</h1>
+    <p>
+      This project is a <strong>Netflix-inspired web application</strong> built using 
+      <strong>Django and Bootstrap</strong>. It features a dynamic homepage with a movie 
+      carousel and responsive cards displaying trending films. Each movie card links 
+      directly to the official YouTube trailer for instant viewing.
+    </p>
+    <p>
+      The website also includes a fully functional <strong>Contact Page</strong> where 
+      users can submit their name, email, phone number, and message. All form data 
+      is validated before submission and securely stored in the Django Admin portal, 
+      where it can be viewed, updated, or deleted by the admin.
+    </p>
+    <p>
+      The design includes a <strong>custom navigation bar</strong> and consistent 
+      page structure using Django’s template inheritance. This project demonstrates 
+      my ability to build both frontend and backend features while following 
+      clean coding and user experience principles.
+    </p>
+    <hr>
+    <h3 class="text-danger mt-4">Tech Stack</h3>
+    <ul>
+      <li>Python (Django Framework)</li>
+      <li>Bootstrap 5</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>SQLite Database</li>
+    </ul>
+  </div>
+</div>
+{% endblock body %}
+

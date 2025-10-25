@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid my-4 px-0">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="{% static 'pic1-unsplash.jpg' %}" class="d-block w-100" alt=""
+             class="d-block w-100" 
+             style="height: 400px; object-fit:fit;"
+             alt="Doctor Image 1">
+      </div>
+
+      <div class="carousel-item">
+        <img src="{% static 'rajahuli.jpg' %}" class="d-block w-100" alt=""
+             class="d-block w-100" 
+             style="height: 400px; object-fit: cover;"
+             alt="Doctor Image 2">
+      </div>
+
+      <div class="carousel-item">
+        <img src="{% static 'hera pheri.jpg' %}" class="d-block w-100" alt=""
+             class="d-block w-100" 
+             style="height: 400px; object-fit: fit;"
+             alt="Doctor Image 3">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container">
+<h1 class="mb-2 text-center">Bangers of all time</h1>
+
+     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'KOTIGOBBA2.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">Kotigobba 2</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=MLMfwbvIQ2g&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">161 mins</small> </div> </div> </div> </div>
+
+
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'Robert.webp' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">Robert Hindi dubbed</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=yJetAylQjzQ&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">141 mins</small> </div> </div> </div> </div>
+
+                
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'rajahuli.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">RajaHuli</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=7gLaFAhCHgU&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">159 mins</small> </div> </div> </div> </div>
+
+
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'geetha govindam.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">Geetha Govindham</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=omSw8I20aqw&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">119 mins</small> </div> </div> </div> </div>
+        
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'yeh jawaani hai deewani.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">   
+            <div class="card-body"><p class="card-text">Yeh Jawaani Hai Deewani</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=TVB920h0u4g&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">160 mins</small> </div> </div> </div> </div>
+        
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'dj.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">DJ</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=GQ8hnfe5v_M&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">143 mins</small> </div> </div> </div> </div>
+
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'jab we met.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">Jab We Met</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=jf2gOSORoqU&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">138 mins</small> </div> </div> </div> </div>
+
+
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'hera pheri.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">Hera Pheri</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=TIQ5hrfermg&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">138 mins</small> </div> </div> </div> </div>
+
+        <div class="col"> 
+            <div class="card shadow-sm"><img src="{% static 'ramachari.jpg' %}"
+                alt="Movie Poster"
+                class="card-img-top"
+                style="
+                width: 100%;
+                height: 273px;
+                object-fit: fit;
+                object-position: center;
+                border-radius: 0.5rem;">
+            <div class="card-body"><p class="card-text">Mr & Miss Ramachari</p> 
+            <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.youtube.com/watch?v=gvIN8dznwm4&t=0s';"> View </button>
+                </div> <small class="text-body-secondary">154 mins</small> </div> </div> </div> </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+{% endblock body %}
